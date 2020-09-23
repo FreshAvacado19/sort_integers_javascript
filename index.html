@@ -1,1 +1,16 @@
-123
+<html>
+<body>
+    <h2>JavaScript Sort Array</h2>
+    <p>The sort method sorts an array of numbers.</p>
+    <button onclick="myFunction()">Sort</button>
+    <p id="demo"></p>
+    <script>
+        var numbers = ["6", "4", "3", "5", "1", "2", "8"];
+        document.getElementById("demo").innerHTML = numbers;
+        function myFunction() {
+            numbers.sort();
+            document.getElementById("demo").innerHTML = numbers;
+        }
+    </script>
+</body>
+</html>
